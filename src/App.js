@@ -1,6 +1,7 @@
 /** @format */
 
 import "./App.css";
+import FootLand from "./components/FootLand";
 import LandPage from "./components/LandPage";
 import Nav from "./components/Nav";
 
@@ -9,6 +10,7 @@ function App() {
     <div className='App'>
       <Nav />
       <LandPage />
+      <FootLand />
     </div>
   );
 }

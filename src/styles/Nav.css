@@ -3,8 +3,9 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 25px;
-  padding: 10px;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: #00302e;
 }
 .logo-img {
   width: 50px;
@@ -60,4 +61,10 @@
 }
 .white {
   color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .land-img {
+    width: 100%;
+    height: 100%;
+  }
 }

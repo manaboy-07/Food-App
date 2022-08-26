@@ -1,0 +1,45 @@
+/** @format */
+.land-pg {
+  background-color: #00302e;
+}
+.land-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  padding: 50px 30px;
+}
+.land-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+.peach {
+  color: #fbddbb;
+}
+.land-text {
+  max-width: 700px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+.land-text-small {
+  width: 609px;
+  height: 77px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.74);
+}
+.playstore {
+  margin-top: 40px;
+}
+
