@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
+
+import "./App.css";
+import LandPage from "./components/LandPage";
+import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
-      Hello
-      <p>Grace</p>
+    <div className='App'>
+      <Nav />
+      <LandPage />
     </div>
   );
 }
