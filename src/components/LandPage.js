@@ -49,6 +49,32 @@ function LandPage() {
           description="Perhaps you are a junkie , well we got hamburgers, pizza's and more "
         />
       </div>
+      <div className='land-notify'>
+        <div className='notify'>
+          <h3 className='text-secondary text-2xl font-bold'>
+            Get notified when we update!
+          </h3>
+          <p>
+            <small className=' text-white'>
+              Get notified when we add new items to our specials menu <br />{" "}
+              update our price list of have promos!
+            </small>
+          </p>
+        </div>
+        <div className='input-notify'>
+          <input
+            id='input-email'
+            type='email'
+            className='w-full rounded-md bg-white font-sm '
+            placeholder='greg@foodies.com'
+          />
+          <button
+            id='input-btn'
+            className='bg-secondary ml-3 text-primary rounded-md  font-extrabold'>
+            Get notified
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
