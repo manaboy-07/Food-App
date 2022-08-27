@@ -1,0 +1,72 @@
+/** @format */
+
+.sign-page {
+  display: flex;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  bottom: -150px;
+  transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  box-shadow: 6px 8px 5px gray;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-right: 80px;
+}
+.input-form {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  padding: 30px;
+  background: rgba(255, 254, 254, 0.83);
+  border: 2px solid rgba(153, 144, 134, 0.51);
+  border-radius: 5px;
+}
+input {
+  outline: none;
+  font-size: 25px;
+
+  border: none;
+  width: 100%;
+}
+input::placeholder {
+  font-size: 27px;
+  font-weight: bold;
+}
+#flex {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .img > img {
+    display: none;
+  }
+  .sign-page {
+    left: -70px;
+    top: -150px;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+  }
+}
+.login-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}

@@ -13,7 +13,7 @@ function FootLand() {
         <div className='footer-flex row'>
           <div className='flex-item'>
             <div>
-              <h3 className='footer-header'>Company</h3>
+              <h3 className='footer-header font-bold'>Company</h3>
               <ul className='footer-list'>
                 <li className='footer-list-item'>About Us</li>
                 <li className='footer-list-item'>Careers</li>
@@ -23,7 +23,7 @@ function FootLand() {
           </div>
           <div className='flex-item'>
             <div>
-              <h3 className='footer-header'>Support</h3>
+              <h3 className='footer-header font-bold'>Support</h3>
               <ul className='footer-list'>
                 <li className='footer-list-item'>Help Center</li>
                 <li className='footer-list-item'>Safety Center</li>
@@ -32,7 +32,7 @@ function FootLand() {
           </div>
           <div className='flex-item'>
             <div>
-              <h3 className='footer-header'>Legal</h3>
+              <h3 className='footer-header font-bold'>Legal</h3>
               <ul className='footer-list'>
                 <li className='footer-list-item'>Cookies Policy</li>
                 <li className='footer-list-item'>Privacy Policy</li>
@@ -43,7 +43,7 @@ function FootLand() {
           </div>
           <div className='flex-item'>
             <div>
-              <h3 className='footer-header'>Install App</h3>
+              <h3 className='footer-header font-bold'>Install App</h3>
               <ul className='footer-list'>
                 <li className='footer-list-item list-image'>
                   <img src={AppleStore} alt='app store' />
@@ -64,13 +64,13 @@ function FootLand() {
             </div>
             <div className='socials'>
               <div className='footer-icons'>
-                <FaInstagram className="icon"/>
+                <FaInstagram className='icon' />
               </div>
               <div className='footer-icons'>
-                <FaTwitter className="icon"/>
+                <FaTwitter className='icon' />
               </div>
               <div className='footer-icons'>
-                 <FaYoutube className="icon"/>
+                <FaYoutube className='icon' />
               </div>
             </div>
           </div>
