@@ -1,22 +1,22 @@
 /** @format */
 
 import "./App.css";
-import FootLand from "./components/FootLand";
-import LandPage from "./components/LandPage";
-
-import Header from "./components/Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Error from "./Pages/Error";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-      <LandPage />
-      <FootLand />
-      <SignUp />
-      <Login />
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/SignUp' element={<SignUp />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+    </Router>
   );
 }
 

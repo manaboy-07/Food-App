@@ -78,3 +78,22 @@ ul li {
 .footer-icons {
   margin-right: 20px;
 }
+.footer-list-item {
+  width: 100%;
+  margin: 3px;
+  padding: 12px 0;
+  height: 40px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.footer-list-item:hover {
+  transition: 0.3s ease;
+  background-color: rgba(253, 253, 255, 0.1);
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}

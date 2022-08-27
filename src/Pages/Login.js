@@ -32,7 +32,7 @@ function Login() {
         </div>
         <div className='form p-8'>
           <div className='form-header '>
-            <h1 className='text-center text-5xl p-4 font-extrabold'>
+            <h1 className='text-center text-primary text-5xl p-4 font-extrabold'>
               Welcome Back !
             </h1>
           </div>
@@ -73,7 +73,9 @@ function Login() {
             </div>
             <div className='login-bottom'>
               <h2 className='text-2xl text-primary'>Create an account</h2>
-              <h2 className='text-2xl ext-primary'>Forgot Password ?</h2>
+              <h2 className='text-2xl text-primary font-bold'>
+                Forgot Password ?
+              </h2>
             </div>
           </form>
         </div>

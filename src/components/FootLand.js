@@ -45,7 +45,7 @@ function FootLand() {
             <div>
               <h3 className='footer-header font-bold'>Install App</h3>
               <ul className='footer-list'>
-                <li className='footer-list-item list-image'>
+                <li className=' list-image'>
                   <img src={AppleStore} alt='app store' />
                   <img src={GoogleStore} alt='google store' />
                 </li>

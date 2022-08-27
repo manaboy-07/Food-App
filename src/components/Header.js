@@ -2,10 +2,11 @@
 
 import React from "react";
 import "../styles/Nav.css";
-
+import { useNavigate } from "react-router-dom";
 import logo from "../images/Logo.svg";
 
 function Header() {
+  let navigate = useNavigate();
   return (
     <div className='navbar nav'>
       <div className='navbar-start'>
@@ -27,36 +28,40 @@ function Header() {
           </label>
           <ul
             tabindex='0'
-            className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-green  w-52'>
-            <li className='nav-item white transition-all hover:bg-green-900 text-2xl'>
+            className='menu  menu-compact dropdown-content mt-3 p-2 shadow bg-green  w-52'>
+            <li className='nav-item white px-3 transition-all hover:bg-green-900 text-2xl'>
               Home
             </li>
 
-            <li className='nav-item white  transition-all hover:bg-green-900 text-2xl'>
+            <li
+              className='nav-item white px-3 transition-all hover:bg-green-900 text-2xl'
+              onClick={() => navigate("/Login")}>
               Login
             </li>
           </ul>
         </div>
-        <a className='btn btn-ghost normal-case text-xl'>
+        <main className='btn btn-ghost normal-case text-xl'>
           <div className='logo'>
             <img src={logo} alt='logo' className='logo-img' />
             <h1 className='white text-3xl'> Lilies</h1>
           </div>
-        </a>
+        </main>
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal p-0'>
-          <li>
-            <a className='text-white text-2xl'>Home</a>
-          </li>
+          <li className='text-white text-2xl px-4'>Home</li>
 
-          <li>
-            <a className='text-white text-2xl'>Login</a>
+          <li
+            className='text-white text-2xl px-4'
+            onClick={() => navigate("/Login")}>
+            Login
           </li>
         </ul>
       </div>
       <div className='navbar-end'>
-        <button className='sign__up'>Sign Up</button>
+        <button onClick={() => navigate("/SignUp")} className='sign__up'>
+          Sign Up
+        </button>
       </div>
     </div>
   );
